@@ -1,6 +1,6 @@
 # websitev2
 
-Personal website built and designed using Astro.
+Personal website built and designed using the Astro framework.
 
 ## Description
 

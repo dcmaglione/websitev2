@@ -1,0 +1,62 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header title={SITE_TITLE} />
+        <main>
+            <h1>Hello, I'm Dominic.</h1>
+            <p>
+                I'm a graduate student at Boston University studying Computer
+                Science with a focus on Systems and Development. This summer,
+                I'll be working at <a href="https://shield.ai/">Shield AI</a> as
+                a Modeling & Simulation Engineer Intern at the Washington D.C. location.
+            </p>
+            <p>
+                Within the field of computer science, I am interested in
+                exploring a breadth of topics. From the <a
+                    href="https://en.wikipedia.org/wiki/ARPANET"
+                    >robust systems</a
+                > that sustain the modern web to the <a
+                    href="https://openai.com/blog/chatgpt/"
+                    >emerging technologies</a
+                > reshaping it, we're experiencing a unique abundance of information.
+            </p>
+            <p>
+                I strive to continuously develop a unique balance of technical
+                depth, strong interpersonal skills, and an appreciation of
+                humanities. We live in an <a
+                    href="https://ourworldindata.org/internet"
+                    >interconnected world</a
+                >, and without certain human skills, our tech will only get us
+                so far. If the world could be boiled down to neat <a
+                    href="https://en.wikipedia.org/wiki/List_of_equations"
+                    >equations</a
+                >, we wouldn't have so many problems.
+            </p>
+            <p>
+                When I'm not clacking away at a keyboard, you'll find me
+                spending quality time with friends and family, skateboarding
+                around the <a href="https://www.boston.gov/">city</a>, reading a
+                good <a href="http://classics.mit.edu/Tzu/artwar.html">book</a>,
+                or enjoying a nice cup of
+                <a href="https://en.wikipedia.org/wiki/Cappuccino">coffee</a>.
+            </p>
+            <p>
+                Looking for more of my work? Check out my <a
+                    href="https://github.com/dcmaglione">GitHub</a
+                >! Or, if you're interested in similar topics as I am, maybe
+                you'll find my <a href="/blog">blog</a> interesting.
+            </p>
+        </main>
+        <Footer />
+    </body>
+</html>

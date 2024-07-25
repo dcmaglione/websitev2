@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://dcmaglione.com',
+    site: 'https://dcmaglione.dev',
     integrations: [mdx(), sitemap()],
 });

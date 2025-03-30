@@ -1,0 +1,35 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header title={SITE_TITLE} />
+        <main>
+            <pre>
+                -----BEGIN PGP PUBLIC KEY BLOCK-----
+
+                xjMEZhmcQxYJKwYBBAHaRw8BAQdA2qauIk/GSJkL3wDhK7JVfbeWM0/jbTon
+                rh//Gj+HMh/NK2RjbWFnbGlvbmVAcHJvdG9uLm1lIDxkY21hZ2xpb25lQHBy
+                b3Rvbi5tZT7CjAQQFgoAPgWCZhmcQwQLCQcICZCkOvqU0WJE2QMVCAoEFgAC
+                AQIZAQKbAwIeARYhBJC4PnxmUQj7wsQKR6Q6+pTRYkTZAACMMQD/akOMIDAz
+                GROYuRBYAGVsffpPVObvfZKRPGxBjZDT+kIBALfHV3XhBquP6R9nNXQ+oWeH
+                jYmYVWElV5rs2eTT2B0EzjgEZhmcQxIKKwYBBAGXVQEFAQEHQOIgQ5IGfuAc
+                hQBOUK+qQ4Z9juXPvUKAfYLECV938Z8DAwEIB8J4BBgWCgAqBYJmGZxDCZCk
+                OvqU0WJE2QKbDBYhBJC4PnxmUQj7wsQKR6Q6+pTRYkTZAAB7oQEA1lvYuqcF
+                F1j/MOAC/etgdMYut7LukZyUJfHztT5pGSYA/0iFzTT6f7uHQDfaatiqLE2t
+                2+grIBn8PvXfoJkI8LQL 
+                =4qyN 
+                -----END PGP PUBLIC KEY BLOCK-----
+            </pre>
+        </main>
+        <Footer />
+    </body>
+</html>

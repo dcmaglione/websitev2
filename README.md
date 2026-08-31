@@ -10,16 +10,13 @@ Inside this project, you'll see the following folders and files:
 ├── public/
 ├── src/
 │   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
+│   ├── pages/
+│   └── styles/
 ├── astro.config.mjs
 ├── README.md
 ├── package.json
 └── tsconfig.json
 ```
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`. Any static assets, like images, can be placed in the `public/` directory.
 
 ## Commands
 
